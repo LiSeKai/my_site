@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        /* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+/* Header стили */
+.header {
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #F9CCCA 0%, #EDCCD6 25%, #E1CCE1 50%, #D6CCED 75%, #CACCF9 100%);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Логотип */
+.logo a {
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #F00;
+    font-family: Kyiv*Type Titling;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    background: linear-gradient(180deg, #F52042 0%, #BF2970 25.5%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+/* Call-to-Action Button */
+.cta .button {
+    background: linear-gradient(90deg, #F52042 0%, #BF2970 25.5%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
+    color: white;
+    text-align: center;
+    font-family: Kyiv*Type Titling;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-decoration: none;
+    display: inline-flex;
+    height: 60px;
+    padding: 39px 45px 38px 44px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.cta .button2{
+    display: flex;
+    width: 360px;
+    height: 60px;
+    padding: 39px 26px 38px 25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #F52024 0%, #8F1315 100%);
+    float: right;
+    margin-left: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Kyiv*Type Titling;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-decoration: none;
+
+}
+.cta .button:hover {
+    background: linear-gradient(270deg, #973234 0%, #652C64 50%, #332594 100%);
+
+}
+.cta .button2:hover {
+    background: linear-gradient(270deg, #973234 0%, #652C64 50%, #332594 100%);
+
+}
+
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .cta {
+        margin-top: 10px;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#">Трудовое право РФ</a>
+        </div>
+        <div class="cta">
+            <a href="#" class="button">Вход</a>
+            <a href="#" class="button2">Регистрация</a>
+
+        </div>
+    </header>
+    <script></script>
+</body>
+</html>
