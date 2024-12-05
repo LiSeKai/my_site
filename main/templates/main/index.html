@@ -1,8 +1,28 @@
 {% extends 'main/layout.html' %}
 {% block title %} Главная страница {% endblock %}
+{% block css %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/css/mmenu.css' %}"> {% endblock %}
 {% block mane %}
 
-<div>
+<div class="par">
 
+    <p>Терпение и труд...</p>
+    <p class="tex1">Узнайте о своих правах и обязанностях с помощью нашего сайта! Мало кто знает весь спектр своих возможностей, и именно Вы можете вступить в ряды просвещённых, изучив информацию, изложенную в ТК РФ, положения которого вы найдёте здесь. </p>
+    <div class ="img1">
+        <img class = "setimg1" src="static/main/img/pictures1.jpg" alt = 'Где картинка?'/>
+    </div>
 </div>
+
+<div class="par2">
+    <p>Информация о нас</p>
+    <p class="tex2">Создатели сайта: Халепа Дмитрий, Бычков Александр. Ученики школы №1581 </p>
+</div>
+
+<div>
+    <a href="#" class="categ">Список прав</a>
+</div>
+
+
+
 {% endblock %}

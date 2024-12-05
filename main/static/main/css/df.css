@@ -1,0 +1,8 @@
+.par{
+display: inline-flex;
+height: 80px;
+padding-left: 50px;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+}
