@@ -1,0 +1,51 @@
+.box_stat {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    border: 2px solid #282828;
+    background: linear-gradient(90deg, #FADBBC, #EBDBCB, #DBDBDB, #CBDBEB, #BCDBFA);
+    margin: 0.8% 5%;
+}
+
+.box_stat:hover {
+    box-shadow: 3px 3px 4px 2px #4A4A4A;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.go_to_page:hover {
+    color: #999999;
+}
+
+.text_stat {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #111111;
+    padding: 10px 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.title_stat {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    color: #111111;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.strelka {
+    align-items: end;
+}
+
+.go_to_page {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #111111;
+    padding: 10px 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

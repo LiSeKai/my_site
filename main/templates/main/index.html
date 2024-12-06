@@ -4,6 +4,39 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'main/css/mmenu.css' %}"> {% endblock %}
 {% block mane %}
+<style>
+    .i2{
+position: relative;
+
+right: 1600px;
+}
+.simg{
+
+    width: 704px;
+    height: 470px;
+    border-radius: 20px;
+}
+.btn .categ{
+    display: flex;
+    width: 650px;
+    height: 160px;
+    padding: 50px 50px 50px 106px;
+    align-items: top;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #F52042 0%, #BF2970 25.5%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-decoration: none;
+
+    }
+
+</style>
 
 <div class="par">
 
@@ -17,10 +50,13 @@
 <div class="par2">
     <p>Информация о нас</p>
     <p class="tex2">Создатели сайта: Халепа Дмитрий, Бычков Александр. Ученики школы №1581 </p>
+    <div class ="i2">
+        <img class = "simg" src="static/main/img/pic2.jpg" alt = 'Где?'/>
+    </div>
 </div>
 
-<div>
-    <a href="#" class="categ">Список прав</a>
+<div class="btn">
+    <a href="stat_menu" class="categ">Список прав</a>
 </div>
 
 

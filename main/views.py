@@ -18,3 +18,5 @@ def pension(request):
     return render(request,"main/pension.html")
 def resetpassword(request):
     return render(request,"main/resetpassword.html")
+def stat_menu(request):
+    return render(request,'main/stat_menu.html')
