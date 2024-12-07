@@ -14,5 +14,6 @@ urlpatterns = [
     path('workbook', views.workbook ),
     path('pension', views.pension ),
     path('resetpassword', views.resetpassword ),
-    path('stat_menu', views.stat_menu)
+    path('stat_menu', views.stat_menu),
+    path('stat_page', views.stat_pag1),
 ]

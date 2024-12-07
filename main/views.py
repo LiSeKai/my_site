@@ -20,3 +20,5 @@ def resetpassword(request):
     return render(request,"main/resetpassword.html")
 def stat_menu(request):
     return render(request,'main/stat_menu.html')
+def stat_pag1(request):
+    return render(request,'main/stat_page.html')
