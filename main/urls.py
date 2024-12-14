@@ -16,4 +16,7 @@ urlpatterns = [
     path('resetpassword', views.resetpassword ),
     path('stat_menu', views.stat_menu),
     path('stat_page', views.stat_pag1),
+    path('page2', views.stat_pag2),
+    path('page3', views.stat_pag3),
+
 ]

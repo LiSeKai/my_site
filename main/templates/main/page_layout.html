@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="../CSS/stat_page.css">
+    <title>{% block mtitle %} {% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/stat_page.css' %}">
+    {% include "main/header.html" %}
+</head>
+<body>
+
+    <section>
+        <div class="title_of_stat">
+            <p class="title_of_stat_text">
+                <font style="opacity: 0.5; color: #FFFFFF;">
+                    {% block title %} {% endblock %}
+                </font>
+            </p>
+        </div>
+        <div class="text_of_stat">
+            <div class="text" style="text-indent: 25px;">
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
