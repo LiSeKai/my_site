@@ -26,3 +26,5 @@ def stat_pag2(request):
     return render(request,'main/page2.html')
 def stat_pag3(request):
     return render(request,'main/page3.html')
+def stat_pag4(request):
+    return render(request,'main/page4.html')
