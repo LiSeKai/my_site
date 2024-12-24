@@ -1,0 +1,73 @@
+.title_of_stat {
+    background: linear-gradient(-90deg, #F52042, #BF2970, #8A319B, #553AC8, #2042F5);
+    margin-left: -1%;
+    width: 65%;
+    border-bottom-right-radius: 100px;
+}
+
+.title_of_stat_text {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    padding: 1% 5%;
+    color: #DFDFDF;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.text_of_stat {
+    border: 1px solid #202425;
+    margin: 1% 5%;
+    background: #EFEFEF;
+}
+
+.text {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: 5% 5%;
+    color: #202425;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.go_to_another_stat {
+    position: sticky;
+    top: 50%;
+    opacity: 0.4;
+    padding: 3rem ;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EFEFEF;
+    border: 2px solid #F52042;
+    border-radius: 100%;
+    background: linear-gradient(-90deg, #F52042, #BF2970, #8A319B, #553AC8, #2042F5);
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+
+
+}
+
+.go_to_another_stat:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+#go_left {
+    float: left;
+    margin-left: 1%;
+}
+
+#go_right {
+    float: right;
+    margin-right:1%;
+}
+
+.stat_content {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
