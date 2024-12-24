@@ -9,7 +9,7 @@
     justify-content: flex-end;
     border-radius: 0px 0px 120px 0px;
     background: linear-gradient(90deg, #2042F5 0%, #553AC8 25%, #8A319B 50%, #C0296F 75%, #F52042 100%);
-    display: inline-flex;
+    display: flex;
     width: 1024px;
     flex-direction: column;
     justify-content: left;
@@ -63,7 +63,7 @@ letter-spacing: 1.6px;
     display: flex;
     width: 650px;
     height: 160px;
-    padding: 50px 50px 50px 106px;
+    padding: 5% 5% 5% 11%;
     align-items: top;
     margin-left: auto;
     margin-right: auto;
@@ -78,15 +78,10 @@ letter-spacing: 1.6px;
     text-decoration: none;
 
     }
-. categ:hover{
+.categ:hover{
 background: linear-gradient(90deg, #F52042 0%, #BF2970 25.5%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
 }
-.img1{
-position: relative;
-bottom: 325px;
-left: 1500px;
 
-}
 .setimg1{
 
 width: 563px;

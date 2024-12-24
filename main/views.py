@@ -28,3 +28,5 @@ def stat_pag3(request):
     return render(request,'main/page3.html')
 def stat_pag4(request):
     return render(request,'main/page4.html')
+def ras_menu(request):
+    return render(request,'main/ras_menu.html')

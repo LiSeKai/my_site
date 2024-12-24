@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="../CSS/stat_menu.css">
+    <title>Список разделов</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{%  static 'main/css/stat_menu.css' %}">
+    {% include "main/header.html" %}
+</head>
+<body>
+    
+    <section style="margin: 2.4% 0%; padding-top: 0.1%">
+
+        <div class="title_stat">
+            <p>
+                Список доступных для чтения разделов:
+            </p>
+        </div>
+
+        <div class="box_stat">
+            <a href="stat_menu" class="text_stat">
+                1.Основные начала трудового законодательства
+            </a>
+            <p class="go_to_page">>></p>
+        </div>
+
+        <div class="box_stat">
+            <a href="page2" class="text_stat">
+                2. Трудовые отношения, стороны трудовых отношений, основания возникновения трудовых отношений
+            </a>
+            <p class="go_to_page">>></p>
+        </div>
+
+
+
+    </section>
+
+</body>
+</html>

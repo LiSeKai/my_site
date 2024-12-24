@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path
 from . import  views
 
 
@@ -19,5 +19,6 @@ urlpatterns = [
     path('page2', views.stat_pag2),
     path('page3', views.stat_pag3),
     path('page4', views.stat_pag4),
+    path('ras_menu',views.ras_menu),
 
 ]
