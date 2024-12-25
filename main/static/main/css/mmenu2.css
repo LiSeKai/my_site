@@ -1,0 +1,111 @@
+.body{
+    font-family:Arial, sans-serif;
+}
+
+.par1 {
+    float: left;
+    display: block;
+    margin-left: -0.4625%;
+    margin-bottom: 5%;
+}
+
+.tit1 {
+    background: linear-gradient(90deg, #2042F5 0%, #553AC8 25%, #8A319B 50%, #C0296F 75%, #F52042 100%);
+    padding: 2%;
+    margin: 1% 0%;
+    width: 70%;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 840;
+    line-height: normal;
+    letter-spacing: 4px;
+    float: left;
+    text-align: left;
+    border-radius: 0px 0px 120px 0px;
+}
+
+
+
+.tit2 {
+    float: right;
+    text-align: right;
+    border-radius: 0px 0px 0px 120px;
+    background: linear-gradient(90deg, #2042F5 0%, #553AC8 25%, #8A319B 50%, #C0296F 75%, #F52042 100%);
+    padding: 2%;
+    margin: 1% 0%;
+    width: 70%;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 840;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+.gr1, .gr2 {
+    display: inline-flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.gr1 {
+    float: left;
+}
+
+.gr2 {
+    float: right;
+}
+
+.tex1, .tex2 {
+    color: #000;
+    margin-top: 50px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    padding: 1% 4%;
+    width: 60%;
+}
+
+.par2 {
+    float: right;
+    margin-right: -0.4625%;
+    display: block;
+    margin-bottom: 5%;
+}
+
+.btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-bottom: 4%;
+    background: linear-gradient(90deg, #F52042 0%, #BF2970 25%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
+}
+
+.btn .categ{
+    padding: 5%;
+    color: #FFF;
+    font-size: 4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.setimg1, .setimg2 {
+    width: 563px;
+    height: 301px;
+    border-radius: 20px;
+}
+
+.setimg1 {
+    margin-right: 4%;
+}
+
+.setimg2 {
+    margin-left: 4%;
+}

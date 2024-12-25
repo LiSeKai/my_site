@@ -1,72 +1,54 @@
-{% extends 'main/layout.html' %}
-{% block title %} Главная страница {% endblock %}
-{% block css %}
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'main/css/mmenu.css' %}"> {% endblock %}
-{% block mane %}
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "main/header.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/mmenu2.css' %}">
+</head>
+<body>
+    
 
-.btn .categ{
+    <div class="par1">
 
+        <p class="tit1">Терпение и труд...</p>
+        <div class="gr1">
+            <p class="tex1">Узнайте о своих правах и обязанностях с помощью нашего сайта! Мало кто знает весь спектр своих возможностей, и именно Вы можете вступить в ряды просвещённых, изучив информацию, изложенную в ТК РФ, положения которого вы найдёте здесь. </p>
+                <img class="setimg1" src="static/main/img/pictures1.jpg" alt='Где картинка?'/>
+        </div>
 
-    width: 650px;
-    height: 160px;
-    padding: 50px 50px 50px 106px;
-    align-items: top;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35%;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #F52042 0%, #BF2970 25.5%, #8A319B 50%, #553AC8 75%, #2042F5 100%);
-    color: #FFF;
-    font-size: 52px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 10px;
-    text-decoration: none;
-
-    }
-    .par2{
-    float: right;
-    height: 80px;
-    padding-left: 50px;
-    align-items: center;
-    border-radius: 0px 0px 0px 120px;
-    background: linear-gradient(90deg, #2042F5 0%, #553AC8 25%, #8A319B 50%, #C0296F 75%, #F52042 100%);
-    margin-top: 400px;
-    justify-content: center;
-    color: #FFF;
-    font-family: Arial, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 840;
-    line-height: normal;
-    letter-spacing: 4px;
-    width: 1024px;
-    }
-
-</style>
-
-<div class="par">
-
-    <p>Терпение и труд...</p>
-    <p class="tex1">Узнайте о своих правах и обязанностях с помощью нашего сайта! Мало кто знает весь спектр своих возможностей, и именно Вы можете вступить в ряды просвещённых, изучив информацию, изложенную в ТК РФ, положения которого вы найдёте здесь. </p>
-    <div class ="img1">
-        <img class = "setimg1" src="static/main/img/pictures1.jpg" alt = 'Где картинка?'/>
     </div>
 
-</div>
+    <div class="par2">
+        <p class="tit2">Информация о нас</p>
+        <div class="gr2">
+            <img class="setimg2" src="static/main/img/pict2.jpg" alt='Где картинка?'/>
+            <p class="tex2">Создатели сайта: Халепа Дмитрий, Бычков Александр. Ученики школы №1581 </p>
+        </div>
 
-<div class="par2">
-    <p>Информация о нас</p>
-    <p class="tex2">Создатели сайта: Халепа Дмитрий, Бычков Александр. Ученики школы №1581 </p>
+    </div>
 
-</div>
-
-<div class="btn">
-    <a href="ras_menu" class="categ">Список прав</a>
-</div>
+    <button class="btn">
+        <a href="ras_menu" class="categ">Список прав</a>
+    </button>
 
 
+</body>
+</html>
 
-{% endblock %}
+<!-- <button class="ZOV_ZZZZZZZZZZ">Назад</button>
+<style>
+    .ZOV_ZZZZZZZZZZ {
+        width: 25%;
+        height: 15%;
+        background: linear-gradient(63deg, #FADBBC, #EBDBCB, #DBDBDB, #CBDBEB, #BCDBFA);
+        border-radius: 3rem;
+        font-size: 2.5rem;
+        color: #;
+    }
+</style> -->
+
+
+
