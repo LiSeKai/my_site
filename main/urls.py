@@ -16,5 +16,8 @@ urlpatterns = [
     path('page6', views.stat_pag6),
     path('stat_menu2', views.stat_menu2),
     path('page7', views.stat_pag7),
+    path('page8', views.stat_pag8),
+    path('page9', views.stat_pag9),
+    path('page10', views.stat_pag10),
 
 ]

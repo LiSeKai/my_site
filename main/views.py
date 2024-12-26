@@ -22,3 +22,9 @@ def stat_menu2(request):
     return render(request,'main/stat_menu2.html')
 def stat_pag7(request):
     return render(request,'main/page7.html')
+def stat_pag8(request):
+    return render(request,'main/page8.html')
+def stat_pag9(request):
+    return render(request,'main/page9.html')
+def stat_pag10(request):
+    return render(request,'main/page10.html')
